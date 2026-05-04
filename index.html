@@ -258,14 +258,11 @@
       width: 94px;
       height: 94px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #e6ddd1, #cdbca8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--deep);
-      font-size: 14px;
-      text-align: center;
-      padding: 10px;
+      object-fit: cover;
+      object-position: center;
+      border: 2px solid #e6ddd1;
+      box-shadow: 0 10px 24px rgba(90, 70, 50, .12);
+      background: #e6ddd1;
     }
 
     .teacher-card h3 {
@@ -427,7 +424,7 @@
         <h2 class="section-title">講師介紹</h2>
         <div class="teachers">
           <div class="card teacher-card">
-            <div class="avatar">Megan<br />照片</div>
+            <img class="avatar" src="megan.png" alt="鄭涵秦 Megan 照片" />
             <div>
               <h3>鄭涵秦 Megan</h3>
               <ul>
@@ -439,7 +436,7 @@
             </div>
           </div>
           <div class="card teacher-card">
-            <div class="avatar">Joanna<br />照片</div>
+            <img class="avatar" src="joanna.png" alt="許瓊玉 Joanna 照片" />
             <div>
               <h3>許瓊玉 Joanna</h3>
               <ul>
